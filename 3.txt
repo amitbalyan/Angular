@@ -1,0 +1,21 @@
+Accessibility feature :--> 
+
+
+https://coryrylan.com/blog/angular-accessibility-tips-and-tricks
+a11y/CDK/bidi package involved as :--> 
+
+ 
+Bidirectional text/performance etc.
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+Testing :-- 
+
+https://medium.com/@manivel45/angular-7-unit-testing-code-coverage-5c7a238315b6
+
+
+++++++++++++++++++++++++++++++++++++
+
+https://dev.to/mustapha/angular-unit-testing-101-with-examples-6mc
+
+

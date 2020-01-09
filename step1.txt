@@ -1,0 +1,166 @@
+CSS3 Advanced Rule :--> 
+
+ 1. psedo Class (More than).
+ 2. @ Rule's 
+
+     1.) @import 
+     2.) @Keyframe (Animation) :-->
+     3.) @media (Media Queries) :----- Flex Layout :-- @Angular/cdk
+     4.) @FontFace
+
+
+Note :-->Define One Component FlexComponent in Code 
+
+
+
+  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  2.) @Keyframe (Animation) :--> its use for Animation. 
+
+   3.) @Fontface :-- 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ For Animation :--> 
+
+ 1. create Component AnimationComponent:--> 
+
+
+
+app.module.ts
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+@NgModule({
+  imports:      [ BrowserAnimationsModule ],
+  declarations: [ ... ],
+  bootstrap:    [ ... ]
+})
+
+export class AppModule { }
+
+
+
+
+// app.componet.ts
+
+import { Component } from '@angular/core';
+import { trigger, state, style, transition, animate, group } from '@angular/animations';
+
+@Component({
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
+  animations: [
+    trigger('toggleBox', [
+      // ...
+      state('open', style({
+        height: '200px',
+        backgroundColor: '#061ff0'
+      })),
+      state('closed', style({
+        height: '70px',
+        backgroundColor: '#E91E63',
+      })),
+      transition('open => closed', [
+        animate('.3s')
+      ]),
+      transition('closed => open', [
+        animate('0.3s')
+      ]),
+    ])
+  ]
+})
+
+export class AppComponent {
+  isOpen;
+
+  toggle() {
+    this.isOpen = !this.isOpen;
+    console.log(this.isOpen)
+  }
+}
+
+
+
+
+
+
+
+
+// html 
+
+<button (click)="toggle()">{{isOpen ? 'Close Me' : 'Open Me'}}</button>
+
+<div [@toggleBox]="isOpen ? 'open' : 'closed'" class="custom-style">
+  <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
+</div>
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    Ngrx:---> > Ng:-- Angular----> rx-----> Redux
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+   Why :--> Redux :--> 
+
+  1. Redux provide us better state managemant (global level). 
+  2. its Help to Achive the Flux Implemention.
+  3. Redux support the three important principle's. 
+
+       
+   1. There would be single store for one Use case flow. 
+   2. Store is Read only 
+   3. yes , we can change using the way of reducer which is pure funciton.
+
+     reducers:---- > pure funciton which take two paramters :--> 
+
+   
+            reducers x(initial state, action){
+
+
+              return final_state;:-----------------> store
+
+              }
+
+
+      FLUX Arch . :---------------------> 
+
+  
+    1. Flux is the evolved form of MVC 
+
+      M :--- Model :----->Store 
+      V:---- View :------> Angualr View/ Component/ React View Component
+      C:----Contoller :--->    Action --------Dispatcher
+
+
+
+   Flux :--> 
+
+
+   Action :----> Dispatcher----> Reducer:--- store :--- > Component(A View)
+ <-------------------------  NGRX----------------------------------------->
+     
+  SCR :--App :-- > Action ---Store--- Reducer ---- Comopnent (Angular)
+              <------------- Redux---------------> 
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+   npm install babel-plugin-transform-object-rest-spread --save
+
+
+
+
+
+
+
+
+
+

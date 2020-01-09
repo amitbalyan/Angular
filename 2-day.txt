@@ -1,0 +1,18 @@
+Flex layout:-->
+https://stackblitz.com/edit/lacolaco-angular-flex-layout-example?file=src%2Fapp%2Fcard.component.ts
+
+animation:-->
+
+Basic Animation :--> 
+
+https://www.positronx.io/understanding-angular-7-animations/
+
+
+https://medium.com/codingthesmartway-com-blog/angular-6-animations-from-scratch-76e110cba5f
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+https://malcoded.com/posts/angular-ngrx-guide/
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://dzone.com/articles/angular-app-state-management-with-ngrx

@@ -1,0 +1,30 @@
+Template driven form :-->
+
+https://stackblitz.com/angular/pedkxdadkke?file=src%2Fapp%2Fhero-form%2Fhero-form.component.html
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://medium.com/@realTomaszKula/angular-cross-field-validation-d94e0d063b61
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Angular 8: Angular 8 is the latest version running nowadays. Angular 8 is released on May 28, 2019. It is mainly focused on Differential loading,
+Dynamic imports for lazy routes,
+web workers and Angular Ivy as an opt-in support.
+It also supports TypeScript 3.4.
+
++++++++++++++++++++++++++++++++++++++++++
+
+https://angular.io/guide/ivy
+
+https://angular.io/guide/bazel
+
+++++++++++++++++++++++++++++++++++++++++
+https://stackblitz.com/edit/ng-cross-validation?file=app%2Fapp.component.ts
+
+Router :--> 
+
+https://angular.io/guide/lazy-loading-ngmodules#forroot-and-forchild
+
+https://codeburst.io/using-angular-route-guard-for-securing-routes-eabf5b86b4d1
+++++++++++++++++++++++++++++++++++++++++++
+C:\TypeScript-ES 6- A6\Angular
+C:\Users\Amit\Desktop\document\Angular-6
